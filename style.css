@@ -17,6 +17,7 @@
 
 .search_selector button {
   border: none;
+  margin: 2px;
 }
 
 .search_string {
