@@ -15,12 +15,22 @@
   margin: 20px;
 }
 
+.search_selector button {
+  border: none;
+}
+
 .search_string {
+  background-image: url(https://img.icons8.com/ios-glyphs/30/000000/search--v1.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 1rem;
   border: 1px solid gray;
   border-radius: 24px;
   width: 582px;
   height: 44px;
   padding: 5px 8px 0 16px;
+  padding-left: 55px;
+  padding-top: 0px;
 }
 
 .search_button, .adv_search_button {
