@@ -52,6 +52,7 @@
   border-radius: 5px;
   height: 30px;
   font-size: 15px;
+  margin-top: 10px;
 }
 
 .appbar {
@@ -63,18 +64,23 @@
 }
 
 .adv_sub_title {
-  margin: 40px 40px 20px 40px;
+  margin: 40px 40px 0px 50px;
   width: 16%;
+  font-weight: bold;
+  max-width: 230px;
 }
 
 .advanced_search_div {
+  max-width: 1140px;
+  min-width: 200px;
+  margin: 0px 40px 40px 40px;
   display: -ms-grid;
   display: grid;
   padding: 10px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  -ms-grid-columns: 20% 45%;
-      grid-template-columns: 20% 45%;
+  -ms-grid-columns: 20% 50%;
+      grid-template-columns: 20% 50%;
 }
 
 .advanced_search_div input[type="search"] {
