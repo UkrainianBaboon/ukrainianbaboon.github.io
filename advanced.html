@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Розширений пошук</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -12,44 +12,47 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-</head>
-<body>
+  </head>
+  <body>
     <div class="search_selector">
       <button><a href="index.html">Звичайний пошук</a></button>
     </div>
     <div class="appbar">
-      <label style="margin-left: 10px;">Розширений пошук</label>
+      <label style="margin-left: 10px">Розширений пошук</label>
     </div>
     <div class="terminator"></div>
-    <div>
-      <p class="adv_sub_title">Знайти сторінки, що містять...</p>
+    <div class="adv_sub_title">
+      <div><span>Знайти сторінки, що містять...</span></div>
     </div>
-  <div class="advanced_search_div">
     <form action="https://google.com/search">
-          <div>
-          <div>
-            <div class="adv_sub_div"><label for="">усі ці слова:</label></div>
-            <input type="search" name="as_q" />
+      <div class="advanced_search_div">
+        <div>
+          <label class="adv_search_desc">усі ці слова:</label>
+        </div>
+        <div>
+          <input type="search" name="as_q">
+        </div>
+        <div>
+          <label class="adv_search_desc">точне слово або фразу:</label>
           </div>
-          <div>
-            <div class="adv_sub_div"><label for="">точне слово або фразу:</label></div>
-            <input type="search" name="as_epq" />
+        <div>
+          <input type="search" name="as_epq">
+        </div>
+        <div>
+          <label class="adv_search_desc">будь-яке з цих слів:</label>
           </div>
-          <div>
-
-            <div class="adv_sub_div"><label for="">будь-яке з цих слів:</label></div>
-            <input type="search" name="as_oq" />
+        <div>
+          <input type="search" name="as_oq">
+        </div>
+        <div>
+          <label>жодне з цих слів:</label>
           </div>
-          <div>
-            <div class="adv_sub_div"><label for="">жодне з цих слів:</label></div>
-            <input type="search" name="as_eq" />
-          <div><input type="hidden" name="hl" value="uk"></div>
-          </div>
-
-      <div>
-        <input class="adv_search_button" type="submit" value="Розширений пошук" />
+        <div class="adv_search_desc">
+          <input type="search" name="as_eq">
+        </div>
+        <div></div>
+        <div><input class="adv_search_button" type="submit" value="Розширений пошук" /></div>
       </div>
     </form>
-  </div>
-</body>
+  </body>
 </html>
