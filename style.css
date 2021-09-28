@@ -52,7 +52,6 @@
   border-radius: 5px;
   height: 30px;
   font-size: 15px;
-  margin-left: 553px;
 }
 
 .appbar {
@@ -69,21 +68,22 @@
 }
 
 .advanced_search_div {
-  max-width: 1140px;
-  min-width: 200px;
-  width: 96%;
-  margin: 20px 40px 40px 40px;
+  display: -ms-grid;
+  display: grid;
+  padding: 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  -ms-grid-columns: 20% 45%;
+      grid-template-columns: 20% 45%;
 }
 
 .advanced_search_div input[type="search"] {
-  width: 526px;
-  margin: 10px;
+  width: 100%;
 }
 
-.adv_sub_div {
-  float: left;
-  margin-top: 12px;
-  width: 16%;
+.advanced_search_div input[type="submit"] {
+  float: right;
+  margin-right: 0px;
 }
 
 .advanced_search_strings {
