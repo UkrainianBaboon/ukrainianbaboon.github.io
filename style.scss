@@ -70,12 +70,22 @@
     @extend %button;
 }
 
+%button:hover{
+  border: 1px solid darkgray;
+}
+
+
+
 .adv_search_button {
     @extend %button;
     background-color: #8ab4f8;
     border-radius: 5px;
     height: 30px;
     font-size: 15px;
+}
+
+.adv_search_button:hover {
+  border: 1px solid black;
 }
 
 .img_search_button {

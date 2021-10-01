@@ -68,11 +68,19 @@
   height: 36px;
 }
 
+.search_button:hover, .adv_search_button:hover, .img_search_button:hover {
+  border: 1px solid darkgray;
+}
+
 .adv_search_button {
   background-color: #8ab4f8;
   border-radius: 5px;
   height: 30px;
   font-size: 15px;
+}
+
+.adv_search_button:hover {
+  border: 1px solid black;
 }
 
 .appbar {
