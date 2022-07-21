@@ -1,8 +1,8 @@
 {
-  "name": "v-rudenko.github.io",
+  "name": "react-search",
   "version": "0.1.0",
+  "homepage": "https://v-rudenko.github.io/react-search",
   "private": true,
-  "homepage": "https://v-rudenko.github.io",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
